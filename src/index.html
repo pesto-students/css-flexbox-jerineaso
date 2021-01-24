@@ -4,10 +4,106 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
   <title>Table UI</title>
 </head>
 <body>
-  <h1>Table UI</h1>
+  <header>
+    <div class="left"><p>Show
+        <select id="hall">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option selected>8</option>
+      </select>entries</p>
+    </div>
+      <div class="right">
+        <i class="fa fa-2x fa-search" aria-hidden="true"></i>
+        <input type="text" placeholder="Search" class="search">
+      </div>
+  </header>
+  <main>
+    <ul class="head">
+      <li><a href="#">first name <i class="fa fa-angle-up"></i></a></li>
+      <li><a href="#">last name <i class="fa fa-angle-down"></i></a></li>
+      <li><a href="#">email <i class="fa fa-angle-down"></i></a></li>
+      <li><a href="#">created at <i class="fa fa-angle-down"></i></a></li>
+    </ul>
+    <ul class="content">
+      <li class="links">
+        <p>Manuel</p>
+        <p>Sutton</p>
+        <p>usike@udka.net</p>
+        <p>09-06-2020</p>
+        <input type="button" value="Go to workplace" class="btn">
+      </li>
+      <li class="links">
+        <p>Daisy</p>
+        <p>Kelly</p>
+        <p>ho@kepuf.edu</p>
+        <p>09-06-2020</p>
+        <input type="button" value="Go to workplace" class="btn">
+      </li>
+      <li class="links">
+        <p>Shane</p>
+        <p>Underwood</p>
+        <p>afawi@ajsenod.edu</p>
+        <p>09-06-2020</p>
+        <input type="button" value="Go to workplace" class="btn">
+      </li>
+      <li class="links">
+        <p>Ray</p>
+        <p>Wise</p>
+        <p>vebgelmo@ven.co.uk</p>
+        <p>09-06-2020</p>
+        <input type="button" value="Go to workplace" class="btn">
+      </li>
+      <li class="links">
+        <p>Seu</p>
+        <p>Hammond</p>
+        <p>zosub@bakus.edu</p>
+        <p>09-06-2020</p>
+        <input type="button" value="Go to workplace" class="btn">
+      </li>
+      <li class="links">
+        <p>Banks</p>
+        <p>Roxie</p>
+        <p>mekruj@orewera.co.uk</p>
+        <p>09-06-2020</p>
+        <input type="button" value="Go to workplace" class="btn">
+      </li>
+      <li class="links">
+        <p>Alfred</p>
+        <p>Reese</p>
+        <p>upigohi@sop.edu</p>
+        <p>05-29-2020</p>
+        <input type="button" value="Go to workplace" class="btn">
+      </li>
+      <li class="links">
+        <p>Maurice</p>
+        <p>Lowe</p>
+        <p>hib@oksuod.gov</p>
+        <p>05-29-2020</p>
+        <input type="button" value="Go to workplace" class="btn">
+      </li>
+    </ul>
+  </main>
+  <section>
+    <div class="buttons">
+      <div class="prev">
+        <i class="fa fa-angle-left" aria-hidden="true"></i>
+        <input type="button" value="Previous" class="button">
+      </div>
+      <div class="prev">
+        <i class="fa fa-angle-right" aria-hidden="true"></i>
+        <input type="button" value="Next" class="next button">
+      </div>
+    </div>
+  </section>
   <script src="./index.js"></script>
 </body>
 </html>
